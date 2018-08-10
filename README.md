@@ -18,21 +18,14 @@ npm install yaml2ddl
 ```js
 const yaml2dll = require('yaml2dll')
 
+// Generate from file
 const schemaFileUri = './user.table.yaml'
-
-// With promise
-yaml.generate(schemaFileUri)
+yaml2dll.generateFromFile(schemaFileUri, { dialect: 'mysql' })
   .then()
   .catch()
 
-
-//With async/await 
-try {
-    const sqlGeneratedFromFile = await yaml.generate(schemaFileUri)
-}
-catch (e) {
-
-}
+//Generate from source
+const sqlGenerated = yaml2dll.generate(yamlSource, { dialect: 'mysql' })
 ```
 
 ### Schema example
