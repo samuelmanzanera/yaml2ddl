@@ -6,7 +6,7 @@ Generate a DDL schema from yaml description
 
 #### Support
 - For SQL database
-  - Auto increment handled for MySQL, SQL Server, SQLITE, Access
+  - Auto increment handled for MySQL, SQL Server, SQLITE
 - Soon support for MongoDB
 
 ### Installation
