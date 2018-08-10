@@ -1,19 +1,20 @@
 # yaml2ddl
+
+[![npm version](https://badge.fury.io/js/yaml2ddl.svg)](https://badge.fury.io/js/yaml2ddl)
+
 Generate a DDL schema from yaml description
 
-Support
+#### Support
 - For SQL database
   - Auto increment handled for MySQL, SQL Server, SQLITE, Access
 - Soon support for MongoDB
-
-##
 
 ### Installation
 ```sh
 npm install yaml2ddl
 ```
 
-### Usage
+#### Usage
 ```js
 const yaml2dll = require('yaml2dll')
 
@@ -45,7 +46,7 @@ constraints:
       type: primary
 columns:
     - name: id
-        type: 
+        type: #
         datatype: int
         options:
             notnull: true
