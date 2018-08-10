@@ -58,4 +58,8 @@ columns:
 
 ### Licence
 
+<<<<<<< HEAD
 MIT
+=======
+MIT
+>>>>>>> d78f9fd05e5469c85c4e06c01b8039f976571e41
