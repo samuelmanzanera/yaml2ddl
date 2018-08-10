@@ -1,6 +1,6 @@
 {
   "name": "yaml2ddl",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Generate a DDL schema from yaml description",
   "main": "index.js",
   "directories": {

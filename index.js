@@ -19,7 +19,7 @@ module.exports.generateFromFile = (fileUri, { dialect } = {}) => {
     })
 }
 
-module.exports.generate = (yaml, { dialect } = {}) => {
+module.exports.generate = (yamlSchema, { dialect } = {}) => {
     const sql = schemaGenerator.generateSchema(yaml.safeLoad(yamlSchema), { dialect })
     return sql
 }
