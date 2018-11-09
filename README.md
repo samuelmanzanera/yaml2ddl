@@ -39,15 +39,15 @@ constraints:
       type: primary
 columns:
     - name: id
-        type: #
-        datatype: int
+        type: 
+          datatype: int
         options:
             notnull: true
             autoincrement: true
     - name: email
         type: 
-        datatype: varchar
-        length: 100
+          datatype: varchar
+          length: 100
 ```
 
 ### Licence
